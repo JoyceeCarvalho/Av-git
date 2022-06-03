@@ -1,0 +1,55 @@
+#body {
+    background-color: rgba(223, 202, 181, 0.977);
+    display: block;
+}
+
+.cabeçalho {
+    background-color: rgba(207, 169, 131, 0.977);
+    width: 100%;
+    height: 100px;
+}
+
+.cabeçalho .lista {}
+
+.lista li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+.lista li a {
+    font-size: 25px;
+    padding: 10pt 20px;
+}
+
+.main {
+    float: left;
+    display: flex;
+    margin: 30pt;
+}
+
+.bem {
+    font-size: 50pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 70pt, 100pt;
+    padding: 60pt;
+}
+
+.vindo {
+    font-size: 40pt;
+    margin: 50pt;
+    padding: 50pt;
+}
+
+.email {
+    height: 70pt;
+    width: 40pt;
+    padding: 20pt;
+}
+
+.enter {}
+
+.img {
+    display: inline-block;
+    margin-left: 200pt;
+}
