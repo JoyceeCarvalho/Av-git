@@ -3,13 +3,21 @@
     display: block;
 }
 
+.cabeçalho nav .lista {
+    padding-top: 35px;
+}
+
 .cabeçalho {
     background-color: rgba(207, 169, 131, 0.977);
     width: 100%;
     height: 100px;
 }
 
-.cabeçalho .lista {}
+nav {
+    width: 100%;
+    height: 100px;
+    background: rgba(207, 169, 131, 0.977);
+}
 
 .lista li {
     list-style: none;
@@ -19,7 +27,7 @@
 
 .lista li a {
     font-size: 25px;
-    padding: 10pt 20px;
+    padding: 0 20px;
 }
 
 .main {
@@ -31,14 +39,6 @@
 .bem {
     font-size: 50pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 70pt, 100pt;
-    padding: 60pt;
-}
-
-.vindo {
-    font-size: 40pt;
-    margin: 50pt;
-    padding: 50pt;
 }
 
 .email {
@@ -47,9 +47,22 @@
     padding: 20pt;
 }
 
-.enter {}
-
 .img {
     display: inline-block;
     margin-left: 200pt;
+    border: 3px 3px 3px 3px;
+    border-radius: 15%;
+    border-color: black;
+}
+
+.text {
+    float: left;
+}
+
+.text h1 {
+    float: left;
+}
+
+.text1 {
+    margin-top: 125px;
 }
