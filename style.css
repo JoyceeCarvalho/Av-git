@@ -30,6 +30,10 @@ nav {
     padding: 0 20px;
 }
 
+.lista li a:hover {
+    color: red;
+}
+
 .main {
     float: left;
     display: flex;
